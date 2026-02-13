@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale">
+        <title>1 Year and annivery</title>
+        <link rel="stylesheet" href="mixStyle.css">
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"
+              rel="stylesheet"  type='text/css'>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+       
+       <!-- custom scroll bar that I gave up on (keeping this code here just in case i change my mind) -->
+        <!-- <style>
+          html::-webkit-scrollbar {
+            width: 1vw;
+          }
+          html::-webkit-scrollbar-thumb {
+            background-color: #777;
+          }
+          html::-webkit-scrollbar-track {
+            background-color: #555;
+          }
+        </style> -->
+    </head>
+    <body>
+        <div id="blob"></div>
+        <!-- <div id="blur"></div> -->
+        <div class="container">
+          
+            <!-- modal work for page menu-->
+              <div class="popup2 center2">
+                <div class="title2">
+                  MENU              
+                  <a href="#ref2">🖼️</a>
+                  <a href="#ref3">🎵</a>
+                  <a href="#ref4">📝</a>
+                  <a href="#ref5">💌</a>
+                  <a href="#ref6">🎮</a>
+                  <a href="#ref7">📖</a>
+
+                </div>
+                <div class="dismiss-btn2">
+                  <button id="dismiss-popup-btn2">
+                    x
+                  </button>
+                </div>
+              </div>
+            <!-- end of modal work -->
+
+            <section class="one">
+              <h1 id="ref1"></h1>
+
+              <!-- modal work for welcome button -->
+              <div class="popup center">
+                <div class="icon">
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+                <div class="title">
+                  Happy 1st Anniversary!!
+                </div>
+                <div class="description">
+                  As you can see, I coded you a website dedicated to our first anniversary, but it does come with some bugs, heh. GitHub hosting isn't the most stable, so if anything doesnt work properly, refresh the page. The next page is a scrollable image track (you just gotta click and drag). Have fun.
+                </div>
+                <div class="dismiss-btn">
+                  <button id="dismiss-popup-btn">
+                    Thanks, my handsome boyfriend.
+                  </button>
+                </div>
+              </div>
+              <!-- end of modal work -->
+
+                <div id="mainWel">
+                    <h3 data-value="HAPPY 1 YEAR and VALENTINES :D">HAPPY 1 YEAR and VALENTINES :D</h3>
+                </div>
+                <div id="corners">
+                    <h2 data-value="SCROLL -vv- TO CONTINUE">scroll DOWN to continue</h2>
+                </div>
+                <div id="plus1">
+                    <h4>+</h4>
+                </div>
+                <div id="plus2">
+                    <h4>+</h4>
+                </div>
+                <div id="plus3">
+                    <h5>+</h5>
+                </div>
+                <div id="plus4">
+                    <h4>+</h4>
+                </div>
+            </section>
+            <section class="two">
+              <h1 id="ref2"></h1>
+                <!-- image track (just in case the id wasnt obvious enough lol) -->
+                <div id="image-track" data-mouse-down-at="0" data-prev-percentage = "0">
+                    <img class="image" src="images/totoro.jpeg" draggable="false" />
+                    <img class="image" src="images/kuromi.jpg" draggable="false" />
+                    <img class="image" src="images/specs.jpg" draggable="false" />
+                    <img class="image" src="images/mcd.jpg" draggable="false" />
+                    <img class="image" src="images/mek.jpg" draggable="false" />
+                    <img class="image" src="images/oreo.jpg" draggable="false" />
+                    <img class="image" src="images\iceMons.jpg" draggable="false" />
+                    <img class="image" src="images/cnady.jpg" draggable="false" />
+                    <img class="image" src="images/smiley.jpg" draggable="false" />
+                </div>
+
+                <div id="plus1">
+                    <h4>-</h4>
+                </div>
+                <div id="plus2">
+                    <h4>-</h4>
+                </div>
+                <div id="plus3">
+                    <h4>-</h4>
+                </div>
+                <div id="plus4">
+                    <h4>-</h4>
+                </div>
+            </section>
+            <section class="three">
+              <h1 id="ref3"></h1>
+                <div id="plus1">
+                    <h4>+</h4>
+                </div>
+                <div id="plus2">
+                    <h4>+</h4>
+                </div>
+                <div id="plus3">
+                    <h4>+</h4>
+                </div>
+                <div id="plus4">
+                    <h4>+</h4>
+                </div>
+
+                <!-- music cards -->
+                <div id="song1">
+                  <div class="card1">
+                    <div class="card-content1">
+                      <h6 class="card-title1">Begin Again</h6>
+                      <h4 class="card-subtitle1"></h4>
+                    </div>
+                  </div>
+                </div>
+
+                <div id="song2">
+                  <div class="card2">
+                    <div class="card-content2">
+                      <h6 class="card-title2">E.B.Y.T</h6>
+                      <h4 class="card-subtitle2"></h4>
+                    </div>
+                  </div>
+                </div>
+
+                <div id="song3">
+                  <div class="card3">
+                    <div class="card-content3">
+                      <h6 class="card-title3">Tree
+                        House</h6>
+                      <h4 class="card-subtitle3"></h4>
+                    </div>
+                  </div>  
+                </div>
+
+                <!-- music player fr -->
+                <div class="content">
+                  <div class="image-wrapper">
+                    <div class="music-image">
+                      <img src="images/tiffco.jpg">
+                    </div>
+                  </div>
+                  <div class="music-titles">
+                    <p class="name">Begin Again</p>
+                    <p class="artist">Taylor Swift</p>
+                  </div>
+                  <div class="progress-details">
+                    <div class="progress-bar">
+                      <span></span>
+                    </div>
+                    <div class="time">
+                      <span class="current">0:00</span>
+                      <span class="final">4:10</span>
+                    </div>
+                  </div>
+                  <div class="control-btn">
+                    <span class="material-symbols-rounded" id="prev">skip_previous</span>
+                    <div class="play-pause">
+                      <span class="material-symbols-rounded">play_arrow</span>
+                    </div>
+                    <span class="material-symbols-rounded" id="next">skip_next</span>
+                  </div>
+                </div>
+                <!-- end music player -->
+            </section>
+            <section class="four">
+              <h1 id="ref4"></h1>
+                <div id="plus1">
+                  <h4>-</h4>
+                    <!-- <h4><i class="fa-sharp fa-regular fa-heart"></i></h4> -->
+                </div>
+                <div id="plus2">
+                  <h4>-</h4>
+                    <!-- <h4><i class="fa-sharp fa-regular fa-heart"></i></h4> -->
+                </div>
+                <div id="plus3">
+                  <h4>-</h4>
+                    <!-- <h4><i class="fa-sharp fa-regular fa-heart"></i></h4> -->
+                </div>
+                <div id="plus4">
+                  <h4>-</h4>
+                    <!-- <h4><i class="fa-sharp fa-regular fa-heart"></i></h4> -->
+                </div>
+                <h1>
+                  If there's one thing 
+                  <span class="love">
+                    <span class="love-text">I</span>
+                  </span>
+                  learned 
+                  <br>about our
+                  <span class="love">
+                    <span class="love-text">love</span>
+                  </span>
+                  , it's that even if we
+                  <br>are different from each other we still
+                  <br>spark each other's growth. 
+                  <br>And as valuable as that may 
+                  <br>be to me, that isn't the only
+                  <br> reason I'm so drawn towards
+                  <span class="love">
+                    <span class="love-text">you.</span>
+                  </span>
+                   <br> Here are my personal 
+                   <br>favorite reasons as to why
+                  <span class="activation">[...]</span>
+                </h1>
+            </section>
+            <section class="side">
+              <h1 id="ref5"></h1>
+                <main>
+                    <article data-index="0" data-status="active">
+                    <!-- image section -->
+                      <div class="article-image-section article-section"></div>
+                    <!-- article description -->
+                      <div class="article-description-section article-section">
+                        <p>
+                          Sometimes i just randomly start smiling by just remembering how cutu you look when you smile, especially when you laugh. You never fail to make me smile along whenever you do. There's a type of charm you have that I'm really attracted to ehehe
+                        </p>
+                      </div>
+                    <!-- title -->
+                      <div class="article-title-section article-section">
+                        <h6>Your Smile</h6>
+                        <i class="fa-light fa-plus-large"></i>
+                      </div>
+                    <!-- nav buttons -->
+                      <div class="article-nav-section article-section">
+                        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                          <i class="fa-solid fa-angle-left"></i>
+                        </button>
+                        <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                          <i class="fa-solid fa-angle-right"></i>
+                        </button>
+                      </div>
+                    </article>
+            
+                    <article data-index="1" data-status="inactive">    
+                    <!-- image section -->
+                      <div class="article-image-section article-section"></div>
+                    <!-- article description -->
+                      <div class="article-description-section article-section">
+                        <p>
+                          Seeing you always aiming to be better than everyone else and always having the dedicated mindset to achieve THAT one particular thing will always impress me. And i have full believe that youll one day achieve everything in your life please never give up or lose track :)
+                        </p>
+                      </div>
+                    <!-- title -->
+                      <div class="article-title-section article-section">
+                          <h6>Your Mindest</h6>
+                        <i class="fa-light fa-plus-large"></i>
+                      </div>
+                    <!-- nav buttons -->
+                      <div class="article-nav-section article-section">
+                        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                          <i class="fa-solid fa-angle-left"></i>
+                        </button>
+                        <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                          <i class="fa-solid fa-angle-right"></i>
+                        </button>
+                      </div>
+                    </article>
+            
+                    <article data-index="2" data-status="inactive">    
+                    <!-- image section -->
+                      <div class="article-image-section article-section"></div>
+                    <!-- article description -->
+                      <div class="article-description-section article-section">
+                        <p>
+                          I know that I will always enjoy spending time with you no matter what we do. Watchinging romcom, study together,  do silly reels, anything becomes enjoyable when I do it with you. We can make things that are seemingly weird and dumb to others exciting to us. I still think about that time how you took full responsibilty for my birthday, a very close day to my heart thankyou. That was the most someone has ever done for me.
+                        </p>
+                      </div>
+                    <!-- title -->
+                      <div class="article-title-section article-section">
+                        <h6>The Fun We Bring Into Each Other's Lives</h6>
+                        <i class="fa-light fa-plus-large"></i>
+                      </div>
+                    <!-- nav buttons -->
+                      <div class="article-nav-section article-section">
+                        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                          <i class="fa-solid fa-angle-left"></i>
+                        </button>
+                        <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                          <i class="fa-solid fa-angle-right"></i>
+                        </button>
+                      </div>
+                    </article>
+            
+                    <article data-index="3" data-status="inactive">    
+                    <!-- image section -->
+                      <div class="article-image-section article-section"></div>
+                    <!-- article description -->
+                      <div class="article-description-section article-section">
+                        <p>
+                          I love how we can connect and not connect at the same time of something we are talking about. Our natural chemistry is just that strong. And beyond that, we share a similar mindset of constant progression in our own ways; we are silly out together, we are goofy together, motivate each other, and care for each other. Although we are bound to experience rocky moments, we will always find a way to resolve them together in the end. It's because there is not a single fight that can part us. 
+                        </p>
+                      </div>
+                    <!-- title -->
+                      <div class="article-title-section article-section">
+                        <h6>Our Dynamic</h6>
+                        <i class="fa-light fa-plus-large"></i>
+                      </div>
+                    <!-- nav buttons -->
+                      <div class="article-nav-section article-section">
+                        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                          <i class="fa-solid fa-angle-left"></i>
+                        </button>
+                        <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                          <i class="fa-solid fa-angle-right"></i>
+                        </button>
+                      </div>
+                    </article>
+                  </main>
+            </section>
+            <section class="six">
+              <h1 id="ref6"></h1>
+
+              <!--game end modal work -->
+              <div class="popup1 center1">
+                <div class="icon">
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+                <div class="title1">
+                  You won!
+                </div>
+                <div class="description1">
+                  That was fun, wasn't it? HM? HM? Yeah, anyway, from our first relationship steps to the end of our first year, I had a lot of joy spending time and learning to work together with you. Although confusion and arguments may try to stop us from going forward, don't forget that there is always a way out!
+                </div>
+                <div class="dismiss-btn1">
+                  <button id="dismiss-popup-btn1">
+                    Close
+                  </button>
+                </div>
+              </div>
+              <!-- end of modal work -->
+            <div id="plus1">
+                <h4>-</h4>
+            </div>
+            <div id="plus2">
+                <h4>-</h4>
+            </div>
+            <div id="plus3">
+                <h4>-</h4>
+            </div>
+            <div id="plus4">
+                <h4>-</h4>
+            </div>
+            <!-- game -->
+              <div class="mbox">
+                <div id="maze">
+                    <div id="thingie">
+                        <div class="emo" id="emo">❤️</div>
+                    </div>
+                    <div id="home">
+                        <div class="emo">🏠</div>
+                    </div>
+                    <div class="barrier" id="top"></div>
+                    <div class="barrier" id="bottom"></div>
+                </div>
+              </div>
+                <div class="controls">
+                    <div class="buttons">
+                        <button class="btn" id="bu"><div class="chevron">W</div></button>
+                        <button class="btn" id="bd"><div class="chevron">S</div></button>
+                        <button class="btn" id="bl"><div class="chevron">A</div></button>
+                        <button class="btn" id="br"><div class="chevron">D</div></button>
+                    </div>
+                </div>
+            </section>
+            <section class="log">
+              <!--
+              <h1 id="ref7"></h1>
+
+              <h6>
+                <a href="https://rfmpnotes.000webhostapp.com/index.html" class="myLink">Post-It!</a>
+              </h6>
+
+              <div id="plus1">
+                <div class="myLink">
+                  <h4>+</h4>
+                </div>
+              </div>
+              <div id="plus2">
+                <div class="myLink">
+                  <h4>+</h4>
+                </div>
+              </div>
+              <div id="plus3">
+                <div class="myLink">
+                  <h4>+</h4>
+                </div>
+              </div>
+              <div id="plus4">
+                <div class="myLink">
+                  <h4>+</h4>
+                </div>
+              </div>
+              
+
+            </section>
+
+            <section class="game">
+            
+              <h1 id="ref8"></h1>
+
+              <h6>
+                <a href="https://mpolasub.github.io/pokemon-clone/" class="myLink1">CHICHIMON</a>
+              </h6>
+
+              <div id="plus1">
+                <div class="myLink1">
+                  <h4>-</h4>
+                </div>
+              </div>
+              <div id="plus2">
+                <div class="myLink1">
+                  <h4>-</h4>
+                </div>
+              </div>
+              <div id="plus3">
+                <div class="myLink1">
+                  <h4>-</h4>
+                </div>
+              </div>
+              <div id="plus4">
+                <div class="myLink1">
+                  <h4>-</h4>
+                </div>
+              </div>
+              
+
+            </section>
+        </div>
+        -->
+
+        <audio src="music/bys.mp3" class="main-song"></audio>
+
+        <script src="js/mixScript.js"></script>
+        <script src="js/playlist.js"></script>
+        <script src="https://kit.fontawesome.com/f6dbb55ca3.js" crossorigin="anonymous"></script>
+    </body>
+</html>
